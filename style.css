@@ -1,0 +1,497 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: linear-gradient(#9b47eb,#A947F6);
+    height: 100%;
+}
+.container{
+padding-top: 10px;
+display: grid;
+max-width: 95%;
+height: 100vh;
+background-color: transparent;
+margin: auto;
+grid-template-areas: 
+"box1 box2 box3"
+"box4 box5 box6"
+"box7 box8 box9";
+grid-gap: 20px;
+height: 90vh;
+}
+.box1{
+    grid-area: box1;
+    background-color: rgb(255, 255, 255);
+    border: 10px solid white;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-areas: 
+   "box-a1 box-a2 box-a3"
+    "box-a1 box-a2 box-a3"
+    "box-a1 box-a2 box-a3" ;
+}
+.box2{
+    grid-area: box2;
+    background-color: rgb(255, 255, 255);
+    border: 10px solid white;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-areas: 
+    "box-b1 box-b2"
+     "box-b1 box-b3";
+}
+.box3{
+    grid-area: box3;
+    background-color: rgb(255, 255, 255);
+    border: 10px solid white;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-areas: 
+    "box-c1 box-c2 box-c3"
+     "box-c4 box-c5 box-c6"
+     "box-c7 box-c8 box-c9";
+}
+.box4{
+    grid-area: box4;
+    background-color: aqua;
+    border: 10px solid white;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-areas: 
+    "box-d1 box-d2 box-d3"
+    "box-d4 box-d2 box-d5"
+    "box-d4 box-d6 box-d5";
+}
+.box5{
+    grid-area: box5;
+    background-color: aqua;
+    border: 10px solid white;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-areas: 
+    "box-e1 box-e2 box-e2"
+    "box-e3 box-e4 box-e5";
+}
+.box6{
+    grid-area: box6;
+    background-color: aqua;
+    border: 10px solid white;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-areas: 
+    "box-f1 box-f1 box-f2"
+    "box-f1 box-f1 box-f3"
+    "box-f1 box-f1 box-f3"
+    "box-f4 box-f5 box-f6";
+}
+.box7{
+    grid-area: box7;
+    background-color: aqua;
+    border: 10px solid white;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-areas: 
+    "box-g1 box-g1 box-g2 box-g2"
+    "box-g1 box-g1 box-g2 box-g2"
+    "box-g1 box-g1 box-g3 box-g4"
+    "box-g1 box-g1 box-g5 box-g4";
+}
+.box8{
+    grid-area: box8;
+    background-color: aqua;
+    border: 10px solid white;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-areas: 
+    "box-h1 box-h1 box-h2 box-h2 box-h3"
+    "box-h1 box-h1 box-h2 box-h2 box-h3"
+    "box-h1 box-h1 box-h2 box-h2 box-h4"
+    "box-h1 box-h1 box-h5 box-h6 box-h7"
+    "box-h1 box-h1 box-h5 box-h6 box-h7";
+}
+.box9{
+    grid-area: box9;
+    background-color: aqua;
+    border: 10px solid white;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-areas: 
+    "box-i1 box-i2 box-i3 box-i4"
+    "box-i5 box-i5 box-i6 box-i6"
+    "box-i7 box-i8 box-i9 box-i10";
+}
+.box-a1{
+    grid-area: box-a1;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-a2{
+    grid-area: box-a2;
+    background-color: rgb(250, 250, 250);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}.box-a3{
+    grid-area: box-a3;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-b1{
+    grid-area: box-b1;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-b2{
+    grid-area: box-b2;
+    background-color: rgb(250, 250, 250);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}.box-b3{
+    grid-area: box-b3;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-c1{
+    grid-area: box-c1;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-c2{
+    grid-area: box-c2;
+    background-color: rgb(250, 250, 250);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}.box-c3{
+    grid-area: box-c3;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-c4{
+    grid-area: box-c4;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-c5{
+    grid-area: box-c5;
+    background-color: rgb(250, 250, 250);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}.box-c6{
+    grid-area: box-c6;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-c7{
+    grid-area: box-c7;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-c8{
+    grid-area: box-c8;
+    background-color: rgb(250, 250, 250);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}.box-c9{
+    grid-area: box-c9;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-d1{
+    grid-area: box-d1;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-d2{
+    grid-area: box-d2;
+    background-color: rgb(250, 250, 250);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}.box-d3{
+    grid-area: box-d3;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-d4{
+    grid-area: box-d4;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-d5{
+    grid-area: box-d5;
+    background-color: rgb(250, 250, 250);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}.box-d6{
+    grid-area: box-d6;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-e1{
+    grid-area: box-e1;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-e2{
+    grid-area: box-e2;
+    background-color: rgb(250, 250, 250);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}.box-e3{
+    grid-area: box-e3;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-e4{
+    grid-area: box-e4;
+    background-color: rgb(250, 250, 250);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}.box-e5{
+    grid-area: box-e5;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-f1{
+    grid-area: box-f1;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-f2{
+    grid-area: box-f2;
+    background-color: rgb(250, 250, 250);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}.box-f3{
+    grid-area: box-f3;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-f4{
+    grid-area: box-f4;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-f5{
+    grid-area: box-f5;
+    background-color: rgb(250, 250, 250);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-f6{
+    grid-area: box-f6;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-g1{
+    grid-area: box-g1;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-g2{
+    grid-area: box-g2;
+    background-color: rgb(250, 250, 250);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}.box-g3{
+    grid-area: box-g3;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-g4{
+    grid-area: box-g4;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-g5{
+    grid-area: box-g5;
+    background-color: rgb(250, 250, 250);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-h1{
+    grid-area: box-h1;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-h2{
+    grid-area: box-h2;
+    background-color: rgb(250, 250, 250);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}.box-h3{
+    grid-area: box-h3;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-h4{
+    grid-area: box-h4;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-h5{
+    grid-area: box-h5;
+    background-color: rgb(250, 250, 250);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-h6{
+    grid-area: box-h6;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-h7{
+    grid-area: box-h7;
+    background-color: rgb(250, 250, 250);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-i1{
+    grid-area: box-i1;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-i2{
+    grid-area: box-i2;
+    background-color: rgb(250, 250, 250);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}.box-i3{
+    grid-area: box-i3;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-i4{
+    grid-area: box-i4;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-i5{
+    grid-area: box-i5;
+    background-color: rgb(250, 250, 250);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-i6{
+    grid-area: box-i6;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-i7{
+    grid-area: box-i7;
+    background-color: rgb(250, 250, 250);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-i8{
+    grid-area: box-i8;
+    background-color: rgb(250, 250, 250);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}.box-i9{
+    grid-area: box-i9;
+    background-color: rgb(250, 250, 250);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
+.box-i10{
+    grid-area: box-i10;
+    background-color: rgb(250, 250, 250);
+    border: 5px solid grey;
+    width: 100%;
+    height: 100%;
+}
